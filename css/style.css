@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;400;700&display=swap');
+:root{
+	--menu-hover:#FE8F01;
+	--color-general:#e0e0e0;
+	--color-titulos:#282d33;
+	--color-iconos: #e0e0e0;
+	--color-checks:#53c3c9;
+	--fondo-gris:#f7f7f7;
+}
+body{
+	font-size: 14px;
+	font-family: 'Catamaran', sans-serif;
+}
+header{
+	background-color: #FFF;
+	padding: 5px 0;
+}
+footer{
+	background-color: #333333;
+	color: #bababa;
+	padding: 15px 0;
+	text-align: center;
+}
+
+.title{
+	text-align: center;
+	font-weight: bold;
+	color: var(--color-titulos);
+	
+}
+
+h1.title{
+	color: var(--color-general);
+	font-size: 100px;
+}
+
+#hero{
+	background-image: url("../img/bg-services-title.jpg");
+	background-size: cover;
+	background-position: center;
+	text-align: left;
+}
+
+.overlay{
+	background-color: rgba(0,0,0,0.45);
+	padding: 8% 0;
+}
+
+#icon1{
+	font-size: 180px;
+	color: var(--color-iconos);
+	text-align: center; 
+	padding-left: 28%;
+}
+
+#icon2{
+	font-size: 180px;
+	color: var(--color-iconos);
+	text-align: center;
+	padding-left: 28%;
+}
+
+#icon3{
+	font-size: 180px;
+	color: var(--color-iconos);
+	text-align: center;
+	padding-left: 30%;
+}
+
+.subtitulo{
+	font-size: 15px;
+	text-align: center;
+	padding-top: 5%;
+	font-weight: bold;
+	color: var(--color-titulos);
+}
+
+p{
+	text-align: center;
+}
+
+#pages{
+	background-color: var(--fondo-gris);
+	padding-top: 7%;
+	padding-bottom: 7%;
+}
+
+#services{
+	padding-top: 7%;
+	padding-bottom: 7%;
+}
+
+.la-check{
+	font-weight: bolder;
+	color: var(--color-checks);
+	font-size: 40px;
+	padding-left: 45%;
+	text-align: center;
+}
